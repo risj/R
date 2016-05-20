@@ -1,0 +1,7 @@
+gaData <- ga$getData(id, start.date = as.Date("2016-05-01"), 
+end.date=as.Date("2016-05-19"), 
+metrics = "ga:pageviews,ga:entrances",
+dimensions = "ga:date",
+filter = "ga:medium==cpc1",
+sort = "-ga:pageviews",
+start = 10)
